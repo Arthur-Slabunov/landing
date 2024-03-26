@@ -1,0 +1,60 @@
+header {
+  max-width: 100%;
+  background-color: #daac00;
+}
+
+.navbar {
+  min-height: 121px;
+}
+
+.navbar-nav {
+  gap: 24px;
+  padding-left: 32px;
+  margin-right: 0 !important;
+  padding-right: 32px;
+}
+
+.form-control {
+  width: 274px;
+  min-height: 51px;
+  filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+  background-color: #fcc302;
+  border: none;
+  border-radius: 0;
+  transition: 0.5s ease;
+}
+
+.form-control::placeholder,
+input.form-control,
+input.form-control:focus {
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+.form-control:hover,
+.form-control:focus {
+  background-color: #ffcb20;
+  box-shadow: none;
+}
+
+.btn-navbar {
+  width: 71px;
+  max-height: 51px;
+  background-color: #00bec9;
+  border-radius: 0;
+
+  .search {
+    align-items: center;
+  }
+}
+
+.btn-navbar:hover {
+  background-color: #079ba3;
+}
+
+.nav-link:hover {
+  color: gainsboro;
+}
