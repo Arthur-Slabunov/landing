@@ -4,6 +4,26 @@
   max-width: 1159px;
 }
 
+.header-section {
+  background-color: #fcc302;
+  min-height: 780px;
+}
+
 .section {
   min-height: 780px;
+}
+
+.section-large {
+  min-height: 1018px;
+}
+
+.section-yellow {
+  min-height: 1018px;
+  background-color: #fcc302;
+}
+
+.section-small {
+  min-height: 576px;
+  background-image: url(../../../assets/images/section-small-img.png);
+  background-color: rgba(252, 195, 2, 0.8392156862745098);
 }

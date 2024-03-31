@@ -17,3 +17,33 @@
   border: 3px solid #ffffff;
   height: 69px;
 }
+
+.btn-section-warning {
+  width: 182px;
+  height: 69px;
+  border-radius: 7px;
+  background-color: #fcc302;
+}
+
+.img-block {
+  display: block;
+  position: absolute;
+  width: 252px;
+  height: 206px;
+  background-color: #fcc302;
+  z-index: -1;
+  bottom: -30px;
+  left: -30px;
+}
+
+.img {
+  max-width: 506px;
+  max-height: 480px;
+}
+
+.play {
+  position: absolute;
+  left: 38%;
+  top: 38%;
+  cursor: pointer;
+}

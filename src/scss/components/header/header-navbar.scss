@@ -55,6 +55,7 @@ input.form-control:focus {
   background-color: #079ba3;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: gainsboro;
 }

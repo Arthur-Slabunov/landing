@@ -25,6 +25,24 @@
   font-weight: 400;
 }
 
+.section__text-title {
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.section__text-subtitle {
+  letter-spacing: 0;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 400;
+}
+
 .btn {
   width: 182px;
 
@@ -50,14 +68,72 @@
   border: 3px solid #ffffff;
 }
 
+.btn-section-warning {
+  width: 182px;
+  height: 69px;
+
+  border-radius: 7px;
+  background-color: #fcc302;
+}
+
+.img-block {
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  left: -30px;
+
+  display: block;
+
+  width: 252px;
+  height: 206px;
+
+  background-color: #fcc302;
+}
+
+.img {
+  max-width: 506px;
+  max-height: 480px;
+}
+
+.play {
+  position: absolute;
+  top: 38%;
+  left: 38%;
+
+  cursor: pointer;
+}
+
 .wrapper {
   max-width: 1159px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
+.header-section {
+  min-height: 780px;
+
+  background-color: #fcc302;
+}
+
 .section {
   min-height: 780px;
+}
+
+.section-large {
+  min-height: 1018px;
+}
+
+.section-yellow {
+  min-height: 1018px;
+
+  background-color: #fcc302;
+}
+
+.section-small {
+  min-height: 576px;
+
+  background-color: rgba(252, 195, 2, 0.8392156863);
+  background-image: url(../images/section-small-img.png);
 }
 
 header {
@@ -169,32 +245,45 @@ input.form-control:focus {
   background-color: #079ba3;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: gainsboro;
 }
 
-.header-section {
-  min-height: 780px;
-
-  background-color: #fcc302;
-}
-.header-section .header .header__text-title {
+.header .header__text-title {
   margin-bottom: 29px;
 }
-.header-section .header .header__text-subtitle {
+.header .header__text-subtitle {
   margin-bottom: 28px;
 }
-.header-section .header .header__img {
+.header .header__img {
   max-width: 426px;
   margin-top: 85px;
   margin-left: 150px;
 }
-.header-section .header__text-actions {
+.header .header__text-actions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 
   gap: 34px;
+}
+
+.section-first {
+  padding-top: 139px;
+}
+
+.section__img {
+  position: relative;
+  left: 92px;
+}
+
+.section__text-title {
+  margin-bottom: 29px;
+}
+
+.section__text-subtitle {
+  margin-bottom: 28px;
 }
 
 * {

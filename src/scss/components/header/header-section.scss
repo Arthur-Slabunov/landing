@@ -1,21 +1,16 @@
-.header-section {
-  background-color: #fcc302;
-  min-height: 780px;
+.header {
+  .header__text-title {
+    margin-bottom: 29px;
+  }
 
-  .header {
-    .header__text-title {
-      margin-bottom: 29px;
-    }
+  .header__text-subtitle {
+    margin-bottom: 28px;
+  }
 
-    .header__text-subtitle {
-      margin-bottom: 28px;
-    }
-
-    .header__img {
-      margin-top: 85px;
-      margin-left: 150px;
-      max-width: 426px;
-    }
+  .header__img {
+    margin-top: 85px;
+    margin-left: 150px;
+    max-width: 426px;
   }
 
   .header__text-actions {
