@@ -43,6 +43,27 @@
   font-weight: 400;
 }
 
+.section__text-title-2 {
+  text-align: right;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.section__text-subtitle-2 {
+  text-align: right;
+  letter-spacing: 0;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 400;
+}
+
 .cards-container-text__title {
   text-align: center;
 
@@ -121,6 +142,20 @@
   z-index: -1;
   bottom: -30px;
   left: -30px;
+
+  display: block;
+
+  width: 252px;
+  height: 206px;
+
+  background-color: #fcc302;
+}
+
+.img-block-2 {
+  position: absolute;
+  z-index: -1;
+  right: 30px;
+  bottom: -30px;
 
   display: block;
 
@@ -365,6 +400,32 @@ input.form-control:focus {
 
 .card-card-subtitle {
   margin-bottom: 100px;
+}
+
+.section__img-2 {
+  position: relative;
+  left: 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__text-title-2 {
+  margin-bottom: 29px;
+}
+
+.section__text-subtitle-2 {
+  margin-bottom: 28px;
+}
+
+.second-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 * {

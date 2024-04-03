@@ -36,6 +36,17 @@
   left: -30px;
 }
 
+.img-block-2 {
+  display: block;
+  position: absolute;
+  width: 252px;
+  height: 206px;
+  background-color: #fcc302;
+  z-index: -1;
+  bottom: -30px;
+  right: 30px;
+}
+
 .img {
   max-width: 506px;
   max-height: 480px;
