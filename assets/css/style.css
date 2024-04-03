@@ -43,6 +43,46 @@
   font-weight: 400;
 }
 
+.cards-container-text__title {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.cards-container-text__subtitle {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.card-card-title {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.card-card-subtitle {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .btn {
   width: 182px;
 
@@ -284,6 +324,47 @@ input.form-control:focus {
 
 .section__text-subtitle {
   margin-bottom: 28px;
+}
+
+.cards-container-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  padding-top: 102px;
+}
+
+.cards-container-text__title {
+  margin-bottom: 29px;
+}
+
+.cards-container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  margin-top: 100px;
+
+  gap: 67px;
+}
+
+.card-card {
+  max-width: 342px;
+}
+
+.card-card-title {
+  margin-top: 50px;
+}
+
+.card-card-subtitle {
+  margin-bottom: 100px;
 }
 
 * {

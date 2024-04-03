@@ -1,0 +1,28 @@
+.cards-container-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 102px;
+}
+
+.cards-container-text__title {
+  margin-bottom: 29px;
+}
+
+.cards-container-cards {
+  display: flex;
+  margin-top: 100px;
+  gap: 67px;
+}
+
+.card-card {
+  max-width: 342px;
+}
+
+.card-card-title {
+  margin-top: 50px;
+}
+
+.card-card-subtitle {
+  margin-bottom: 100px;
+}
