@@ -144,6 +144,26 @@
   font-weight: 400;
 }
 
+.statistics__num {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.statistics__subtitle {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 38px;
+  font-weight: 700;
+}
+
 .btn {
   width: 182px;
 
@@ -270,6 +290,7 @@
 
   background-color: rgba(252, 195, 2, 0.8392156863);
   background-image: url(../images/section-small-img.png);
+  background-size: cover;
 }
 
 header {
@@ -506,6 +527,34 @@ input.form-control:focus {
   justify-content: center;
 
   gap: 12px;
+}
+
+.cards-container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+
+  padding-top: 165px;
+}
+
+.statistics__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  margin: 0 auto;
 }
 
 * {
