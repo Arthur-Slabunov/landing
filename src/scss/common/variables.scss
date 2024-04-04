@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 0px 15px 0px 15px;
+  padding: 0px 15px;
   margin: 0px auto;
   max-width: 1159px;
 }
@@ -7,6 +7,7 @@
 .header-section {
   background-color: #fcc302;
   min-height: 780px;
+  width: 100%;
 }
 
 .section {
@@ -20,6 +21,7 @@
 .section-yellow {
   min-height: 1018px;
   background-color: #fcc302;
+  width: 100%;
 }
 
 .section-small {

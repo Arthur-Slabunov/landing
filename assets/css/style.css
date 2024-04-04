@@ -104,6 +104,46 @@
   font-weight: 400;
 }
 
+.team-container-text__title {
+  text-align: center;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.team-container-text__subtitle {
+  text-align: center;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.team-card-title {
+  text-align: center;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.team-card-subtitle {
+  text-align: center;
+
+  color: #313243;
+
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .btn {
   width: 182px;
 
@@ -200,10 +240,11 @@
 .wrapper {
   max-width: 1159px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .header-section {
+  width: 100%;
   min-height: 780px;
 
   background-color: #fcc302;
@@ -218,6 +259,7 @@
 }
 
 .section-yellow {
+  width: 100%;
   min-height: 1018px;
 
   background-color: #fcc302;
@@ -445,6 +487,25 @@ input.form-control:focus {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+}
+
+.team-card {
+  max-width: 361px;
+}
+
+.team-card-title {
+  margin-top: 39px;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  gap: 12px;
 }
 
 * {
