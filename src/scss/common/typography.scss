@@ -162,3 +162,43 @@
   font-family: 'Poppins';
   text-decoration: none;
 }
+
+.list-topic {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  list-style: none;
+  color: #ffffff;
+}
+
+.list-item {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  list-style: none;
+  color: #ffffff;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-social__title {
+  font-size: 38px;
+  line-height: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Poppins';
+  text-align: right;
+}
+
+.footer-social__subtitle {
+  font-size: 25px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Poppins';
+  text-align: right;
+}
