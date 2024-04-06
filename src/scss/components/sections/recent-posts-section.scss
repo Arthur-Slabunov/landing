@@ -1,0 +1,16 @@
+.posts-text {
+  background-color: #fffdfd;
+  border-right: 2px solid #d6d6d6;
+  border-left: 2px solid #d6d6d6;
+  border-bottom: 2px solid #d6d6d6;
+  padding: 32px 0 32px 34px;
+  margin-bottom: 139px;
+}
+
+.posts-text:hover {
+  filter: drop-shadow(5.634px 10.595px 25.5px rgba(74, 74, 74, 0.1));
+  background-color: #ffffff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
